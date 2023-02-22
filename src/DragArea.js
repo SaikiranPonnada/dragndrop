@@ -36,7 +36,8 @@ export default function DragArea(props) {
       onDrop={dragDropHandler}
       onDragOver={dragOverHandler}
     >
-      Drag your files here
+      <img src="https://cdn-icons-png.flaticon.com/512/1092/1092004.png" alt="drop-file-img" className="drop-file-image"/>
+      <h4>Drag and Drop your files here</h4>
     </div>
   );
 }

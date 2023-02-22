@@ -12,21 +12,31 @@ body {
 
 .title {
   font-family: "Raleway", sans-serif;
+  font-size: 36px;
 }
 
 .drag-area {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 90%;
   margin: 40px auto;
-  height: 20px;
+  height: 40px;
   padding: 40px 0;
   color: #2f2f2f;
   border-radius: 20px;
   background-color: #92b4a7;
 }
 
+.drop-file-image{
+  width: 30px;
+  margin-right: 20px;
+}
+
 .file-list {
     display: flex;
     justify-content: center;
+    align-items: center;
     flex-wrap: wrap;
     width: 90%;
     margin: auto;
